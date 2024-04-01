@@ -1,21 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Mountains+of+Christmas:wght@400;700&family=Press+Start+2P&display=swap");
+
 body,
 html {
   background-color: #ec3750;
   height: 100%;
   margin: 0;
+  font-family: "Comic Neue", cursive;
+  font-weight: bold;
 }
 
 .container {
   justify-content: center;
-  align-items: center;
-  height: 100%;
+
+  display: flex;
 }
 
 .container img {
-  width: 900px;
-  height: 200px;
-  margin-top: 250px;
-  margin-left: 100px;
+  width: 50%;
 }
 
 .main {
@@ -25,5 +28,133 @@ html {
 
 footer {
   text-align: center;
-  margin-top: -40px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8,
+h9,
+h10,
+h11,
+h12,
+h13,
+h14,
+h15,
+h16,
+h17,
+h18,
+h19,
+h20,
+h21,
+h22,
+h23,
+h24,
+h25,
+h26,
+h27,
+h28,
+h29,
+h30,
+h31,
+h32,
+h33,
+h34,
+h35,
+h36,
+h37,
+h38,
+h39,
+h40,
+h41,
+h42,
+h43,
+h44,
+h45,
+h46,
+h47,
+h48,
+h49,
+h50,
+h51,
+h52,
+h53,
+h54,
+h55,
+h56,
+h57,
+h58,
+h59,
+h60,
+h61,
+h62,
+h63,
+h64,
+h65,
+h66,
+h67,
+h68,
+h69,
+h70,
+h71,
+h72,
+h73,
+h74,
+h75,
+h76,
+h77,
+h78,
+h79,
+h80,
+h81,
+h82,
+h83,
+h84,
+h85,
+h86,
+h87,
+h88,
+h89,
+h90,
+h91,
+h92,
+h93,
+h94,
+h95,
+h96,
+h97,
+h98,
+h99,
+h100 {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: bold;
+  font-size: 70px;
+}
+.navImage {
+  width: 20vw;
+  height: 10vh;
+}
+
+button {
+  border-radius: 25px;
+  background-color: orange;
+}
+
+.navButton {
+  padding: 1rem;
+  font-size: 20px;
+
+  font-family: "Comic Neue", cursive;
+  font-weight: bold;
+}
+
+nav {
+  padding: 0.5rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
