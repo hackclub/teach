@@ -6,33 +6,24 @@ html {
 }
 
 .container {
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
 
+.container img {
+  width: 900px;
+  height: 200px;
+  margin-top: 250px;
+  margin-left: 100px;
+}
+
 .main {
-  display: flex;
-}
-
-.left img,
-.right img {
-  max-width: 200px;
-  max-height: 200px;
-  width: auto;
-  height: auto;
-}
-
-.left,
-.right {
-  margin: 0 10px;
-}
-.right {
-  display: flex;
+  padding-top: 200px;
+  padding-left: 350px;
 }
 
 footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: -40px;
 }
