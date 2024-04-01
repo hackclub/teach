@@ -1,0 +1,38 @@
+body,
+html {
+  background-color: #ec3750;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+}
+
+.left img,
+.right img {
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+
+.left,
+.right {
+  margin: 0 10px;
+}
+.right {
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
